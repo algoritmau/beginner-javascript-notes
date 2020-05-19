@@ -24,8 +24,6 @@ Most of the aforementioned browsers offer multiple editions (Beta, Developer, et
 
 You can also make a quick Google search for more information about these browsers or any other as the options are way more than these.
 
-***
-
 ## Browser Developer Tools
 
 Developer tools are used for developing and debugging local and remote webpages. Today's browsers integrate built-in powerful developer tools, which helps us build better websites, faster. These tools enable us to do a myriad of things, like inspecting and editing DOM elements (from currently-loaded HTML, CSS, and JavaScript), executing (and debugging) JavaScript pieces of code, analyzing CSS performance, monitoring real-time network traffic as your website loads, simulating mobile device rendering, and much more.
