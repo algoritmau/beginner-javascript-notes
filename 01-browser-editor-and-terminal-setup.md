@@ -1,3 +1,5 @@
+# 01. Browser, Editor, and Terminal Setup
+
 ## Web Browsers
 
 One important tool for JavaScript development (and, web development in general ) is the browser. You probably know enough about them, but if you don't, here are the top 5 web browsers best suited for developers. You can pick up any of these to start, you will end up dealing with the others, eventually. My personal choice, Firefox Developer Edition (most of the time), although I also use Chrome and Blisk a lot, and lately Microsoft Edge too.
@@ -84,7 +86,7 @@ You can find all keyboard shortcuts at [MDN](https://developer.mozilla.org/en-US
 
 - [Safari Developer Tools](https://developer.apple.com/safari/tools/)
 
-## Node.js / npm
+## Node.js
 
 **Node.js** is a free, open-sourced, cross-platform JavaScript runtime environment that allows developers write command-line tools and server-side scripts outside of a browser. It is built on [Chrome's V8 JavaScript engine](https://v8.dev/).
 
@@ -98,7 +100,7 @@ In case you don't, you can download and install it in different ways:
 
 - For Windows, use Chocolatey: `cinst nodejs`
 
----
+## npm
 
 **npm** (short for **Node Package Manager**) is a package manager for the JavaScript programming language. It is the default package manager for the JavaScript runtime environment Node.js. It consists of a command-line client, also called npm, and an online database of public and paid-for private packages called the npm registry. The registry is accessed via the client, and the available packages can be browsed and searched via the npm website.
 
@@ -176,3 +178,33 @@ You can either use your computer's integrated shell / CLI or install the one you
     - You can also type a command name, followed by the directive `--help`, which will show you the ways in which a command can be used.
 
 - **Bonus: Alias (Custom Commands):** `alias` – This command allows you to create keyboard shortcuts, or aliases, for commonly used commands, like so: `alias pd="pwd"`.
+
+## Code Editors
+
+According [to Wikipedia](https://en.wikipedia.org/wiki/Source-code_editor), a source-code editor is a text editor program designed specifically for editing source code of computer programs. It may be a standalone application, or it may be built into an integrated development environment (IDE), or web browser. Source-code editors are a fundamental programming tool, as the primary job of programmers is to write and edit source code. Hence, you will use the code editor daily when developing JavaScript applications.
+
+You can use a plain-text editor, like [Notepad](https://www.microsoft.com/en-us/p/notepads-app/9nhl4nsc67wm) (for Windows) or [TextEdit](https://support.apple.com/en-me/guide/textedit/welcome/mac) (for macOS), but there exist better options out there. With tons of integrated features and extensions, these code editors will make of your coding sessions, a more productive and enjoyable experience.
+
+### Most Popular Code Editors
+
+- [**Visual Studio Code**](https://code.visualstudio.com/) – Commonly referred to as VS code, it is the best code editor in the market. VS code is a product of Microsoft. You can use this amazing tool either on Windows, Linux, and macOS.
+
+- [**Atom Editor**](https://atom.io/) – Atom is a cross-platform code editor. It enables collaboration (to share your project progress) right from your editor.
+
+- [**Sublime Text**](https://www.sublimetext.com/) – A very lightweight yet robust code editor. It is cross-platform.
+
+- [**Brackets**](http://brackets.io/) – Brackets is a powerful yet lightweight and modern text editor.
+
+- [**Notepad++**](https://notepad-plus-plus.org/) – Notepad++ is a free and open-source code editor governed by the GPL License. Being written in C++, it offers a smaller program size and a higher execution speed of programs.
+
+> You can use any of these code editors either on Windows, Linux, and macOS. Except for Notepad++, which is not available for macOS.
+
+ ### Personal Recommendations
+
+    - VS Code + Ace Dark (Theme) + Code Saver (Font)
+
+![Chrome's Developer Tools window](./images/vs-code-ace-dark.png)
+
+    For Italic fans: VS Code + React Italic Theme + Cartograph CF v2 (Font).
+
+![Chrome's Developer Tools window](./images/vs-code-react-italic-theme.png)
