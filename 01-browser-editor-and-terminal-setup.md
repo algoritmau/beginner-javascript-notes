@@ -84,3 +84,26 @@ You can find all keyboard shortcuts at [MDN](https://developer.mozilla.org/en-US
 
 - [Safari Developer Tools](https://developer.apple.com/safari/tools/)
 
+## Node.js / npm
+
+**Node.js** is a free, open-sourced, cross-platform JavaScript runtime environment that allows developers write command-line tools and server-side scripts outside of a browser. It is built on [Chrome's V8 JavaScript engine](https://v8.dev/).
+
+You can check whether you have it already installed on your machine by running the command `node -v` from your Command Line Interface of preference.
+
+In case you don't, you can download and install it in different ways:
+
+- Download the [macOS/Windows Installer](https://nodejs.org/en/download/) directly from the nodejs.org website.
+
+- For macOS, use Homebrew: `brew install node`
+
+- For Windows, use Chocolatey: `cinst nodejs`
+
+---
+
+**npm** (short for **Node Package Manager**) is a package manager for the JavaScript programming language. It is the default package manager for the JavaScript runtime environment Node.js. It consists of a command-line client, also called npm, and an online database of public and paid-for private packages called the npm registry. The registry is accessed via the client, and the available packages can be browsed and searched via the npm website.
+
+    Once you install Node.js, you will automatically get npm.
+
+You can check whether it is already installed by running the command `npm -v`.
+
+As Wes mentions, these technologies will be used to handle modules, dependencies, and other required processes to successfully execute the JavaScript projects for the course.
