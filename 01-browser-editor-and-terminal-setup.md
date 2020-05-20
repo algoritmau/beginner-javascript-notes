@@ -107,3 +107,72 @@ In case you don't, you can download and install it in different ways:
 You can check whether it is already installed by running the command `npm -v`.
 
 As Wes mentions, these technologies will be used to handle modules, dependencies, and other required processes to successfully execute the JavaScript projects for the course.
+
+## Command Line Interface (CLI)
+
+The **command-line interface** is a text interface to your computer. Often referred to as the shell, terminal, console, prompt, or various other names, it processes commands to a computer program in the form of lines of text. The program which handles the interface is called a **command-line interpreter** or **command-line processor**. Operating systems implement a command-line interface in a [shell](https://en.wikipedia.org/wiki/Shell_(computing)) for interactive access to operating system functions or services. So, basically, a shell is a program that receives commands from the user and gives it to the OS to process, and it shows the output.
+
+You can either use your computer's integrated shell / CLI or install the one you like. With a plethora of options out there, here are a few of the most popular ones:
+
+- **macOS:** Terminal (default zsh shell). On your Mac, do one of the following:
+
+    - Click the Launchpad icon in the Dock, type `Terminal` in the search field, then click `Terminal`.
+
+    - In the Finder, open the `/Applications/Utilities` folder, then double-click `Terminal`.
+
+- **Windows:** Command Prompt. There are several ways of launching this tool on Windows.
+
+    - Press `Windows` + `X` to open the *Power Users* menu, and then click *Command Prompt* or *Command Prompt (Admin)*.
+
+    - Press `Windows` + `R`  to open the *Run* box. Then, type `cmd`, and click *OK* to open a regular Command Prompt. Alternatively, type `cmd`, and press `Ctrl` + `Shift` + `Enter` to open an administrator Command Prompt.
+
+- **Linux:**
+
+    - To open the terminal, press `Ctrl` + `Alt` + `T` in Ubuntu, or press `Alt` + `F2`, then type in `gnome-terminal`, and press `Enter`.
+
+    - You can also click on the Activities item at the top left of the screen, then type the first few letters of “terminal”, “command”, “prompt” or “shell”.
+
+    - Other versions of Linux, or other flavors of Ubuntu, will usually have a terminal launcher located in the same place as your other application launchers. It might be hidden away in a submenu or you might have to search for it from within your launcher, but it’s likely to be there somewhere.
+
+- **iTerm2**. It is a terminal emulator for macOS. You can download it from [https://www.iterm2.com/](https://www.iterm2.com/)
+
+- **Hyper**. Hyper is a free, open-sourced, customizable terminal emulator, written in JavaScript, with the aim of providing users with a beautiful and extensible command-line interface. My personal recommendation. You can download it from [https://hyper.is/](https://hyper.is/)
+
+### Basic CLI Commands
+
+- **Print Working Directory:** `pwd` – Use this command to see what directory you are currently working in.
+
+- **Change Directories:** `cd` – Use this command to navigate to a specific directory.
+    - This command takes a directory path you wish to navigate to as an argument – `cd main-folder/subfolder`. Most of the time, you won't need to type the whole name of the folder you would like to navigate to; just by typing the first three characters and pressing the `TAB` key, the shell will autocomplete it for you.
+    - To go one directory back – `cd ..`
+    - To navigate back to your home directory, use it with no arguments.
+
+- **List Files and Directories:** `ls` – You can know what files are in the directory you are in by using this command.
+    - You can also pass in a specific directory as an argument to see all files and folders within that specific directory, like so: `ls main-folder/subfolder`.
+    - You can also see all the hidden files by using the command `ls -a`.
+    - You can also see all contents of a directory in long format by using the command `ls -l`.
+
+- **Create Directories:** `mkdir` – You can use this command whenever you need to create a new folder or directory. Just pass in the name of the to-be-created folder as an argument, and it will create a new folder with that name inside whatever directory you are in.
+    - Pro Tip: Usually, you would like to create a new file/directory and move inside of it right away. You can do this in one single command by typing `mkdir newFolderName && cd $_`.
+
+- **Create Files:** `touch` – You can use this command whenever you need to create a new file. Just pass in the name of the to-be-created file (file extension included) as an argument, and it will create a new yet empty file with that name inside whatever directory you are in.
+
+- **Delete Files and Directories:** `rm` – This command accepts a file or directory name as an argument, and it will delete that file. Note that deleting a file via this method is an irreversible action that cannot be undone, so be cautious when using it.
+    - If the directory you want to remove contains any file (is not empty), you will have to use `rm -r`. Otherwise, you could also use the `rmdir` command.
+
+- **Move/Rename Files and Directories:** `mv` – This command accepts a file or directory name as an argument, and it will delete that file. Note that deleting a file via this method is an irreversible action that cannot be undone, so be cautious when using it.
+    - Use this command to rename a file from the CLI; pass two arguments: first, the file you would like to rename, and then, the new name:  `mv oldName.txt newName.txt`. Please note that if a file with the same name as the new name you are using already existed at the moment of running the command, it will be overwritten.
+    - Similarly, you can use this command to move a file from one directory to another. Just pass two arguments, the source file as the first argument and the destination directory path as the second argument: `mv contact.html /pages`.
+
+- **Copy Files and Directories:** `cp` – You can use this command to copy a file or directory. Just pass two arguments: the file you would like to copy alongside the destination directory path: `cp boilerplate.html /pages`.
+    - You can also copy multiple files at once, as long as you pass the destination directory as the last argument.
+
+- **Clear the CLI:** `clear` – After using it for some time, your CLI might get cluttered. In that case, you can clear it all out by using this command.
+
+- **View the Content of a File:** `cat` – Use this command followed by a file name to view the contents of that file.
+
+- **View Manual Pages and Help for Commands:** `man` / `--help` – You can use this command to add content to a file.
+    - To get more in-depth information about a command and how to use it, use the `man` command, followed by the command name. It will show the manual pages of the command. For example, `man ls` shows the manual pages of the `ls` command. To exit the manual at any given time, type `q` to quit.
+    - You can also type a command name, followed by the directive `--help`, which will show you the ways in which a command can be used.
+
+- **Bonus: Alias (Custom Commands):** `alias` – This command allows you to create keyboard shortcuts, or aliases, for commonly used commands, like so: `alias pd="pwd"`.
