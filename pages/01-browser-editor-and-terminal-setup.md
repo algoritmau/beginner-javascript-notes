@@ -30,7 +30,7 @@ You can also make a quick Google search for more information about these browser
 
 Developer tools are used for developing and debugging local and remote webpages. Today's browsers integrate built-in powerful developer tools, which helps us build better websites, faster. These tools enable us to do a myriad of things, like inspecting and editing DOM elements (from currently-loaded HTML, CSS, and JavaScript), executing (and debugging) JavaScript pieces of code, analyzing CSS performance, monitoring real-time network traffic as your website loads, simulating mobile device rendering, and much more.
 
-![Chrome's Developer Tools window](./images/chrome-devtools.png)
+![Chrome's Developer Tools window](../images/chrome-devtools.png)
 
 ### How to open the Developer Tools in your browser
 
@@ -203,8 +203,8 @@ You can use a plain-text editor, like [Notepad](https://www.microsoft.com/en-us/
 
     - VS Code + Ace Dark (Theme) + Code Saver (Font)
 
-![Chrome's Developer Tools window](./images/vs-code-ace-dark.png)
+![Chrome's Developer Tools window](../images/vs-code-ace-dark.png)
 
     For Italic fans: VS Code + React Italic Theme + Cartograph CF v2 (Font).
 
-![Chrome's Developer Tools window](./images/vs-code-react-italic-theme.png)
+![Chrome's Developer Tools window](../images/vs-code-react-italic-theme.png)
