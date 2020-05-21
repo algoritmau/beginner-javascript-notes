@@ -39,19 +39,19 @@ Opening the Developer Tools in your web browser is a matter of a shortcut or a c
 1. Keyboard Shortcut
 
     - Open the `Elements` panel
-        - Windows/Linux: `Ctrl` + `Shift` +  `C`
+        - Windows, Linux: `Ctrl + Shift + C`
 
-        - macOS: `⌘` + `⌥` +  `C`  (`Cmd` + `Option` +  `C`)
+        - macOS: `⌘ + ⌥ + C` (`Command + Option + C`)
 
     - Open the last panel you had open
-        - Windows/Linux: `Ctrl` + `Shift` +  `I`
+        - Windows, Linux: `Ctrl + Shift + I`
 
-        - macOS: `⌘` + `⌥` +  `I`  (`Cmd` + `Option` +  `I`)
+        - macOS: `⌘ + ⌥ + I` (`Command + Option + I`)
 
     - Open the `Console` panel (to view logged messages or run JavaScript)
-        - Windows/Linux: `Ctrl` + `Shift` +  `J`
+        - Windows, Linux: `Ctrl + Shift + J`
 
-        - macOS: `⌘` + `⌥` +  `J`  (`Cmd` + `Option` +  `J`)
+        - macOS: `⌘ + ⌥ + J` (`Command + Option + J`)
 
     - Internet Explorer: `F12`
 
@@ -60,16 +60,16 @@ Opening the Developer Tools in your web browser is a matter of a shortcut or a c
 You can find all keyboard shortcuts at [MDN](https://developer.mozilla.org/en-US/docs/Tools/Keyboard_shortcuts).
 
 2. **Browser Main/Menu bar**
-    - Chrome / Edge:
-        - Select the browser's main menu (`Alt` + `F`), and then select `More Tools > Developer Tools`.
+    - Chrome, Edge:
+        - Select the browser's main menu (`Alt + F`), and then select `More Tools > Developer Tools`.
 
-    - Firefox
+    - Firefox:
         - Select the browser's main menu, and then select `Web Developer > Toggle Tools`.
 
-    - Opera
+    - Opera:
         - Select the browser's main menu, and then select `Developer > Developer Tools`.
 
-    - Safari
+    - Safari:
         - Select the browser's main menu, and then select `Develop > Show Web Inspector`.
 
 3. **Context Menu**
@@ -112,7 +112,7 @@ As Wes mentions, these technologies will be used to handle modules, dependencies
 
 ## Command Line Interface (CLI)
 
-The **command-line interface** is a text interface to your computer. Often referred to as the shell, terminal, console, prompt, or various other names, it processes commands to a computer program in the form of lines of text. The program which handles the interface is called a **command-line interpreter** or **command-line processor**. Operating systems implement a command-line interface in a [shell](https://en.wikipedia.org/wiki/Shell_(computing)) for interactive access to operating system functions or services. So, basically, a shell is a program that receives commands from the user and gives it to the OS to process, and it shows the output.
+The **command-line interface** is a text interface to your computer. Often referred to as the *shell*, *terminal*, *console*, *prompt*, or various other names; it processes commands to a computer program in the form of lines of text. The program which handles the interface is called a **command-line interpreter** or **command-line processor**. Operating systems implement a command-line interface in a [shell](https://en.wikipedia.org/wiki/Shell_(computing)) for interactive access to operating system functions or services. So, at its core, a shell is a program that receives commands from the user and communicates them to the OS to process, and it shows the output.
 
 You can either use your computer's integrated shell / CLI or install the one you like. With a plethora of options out there, here are a few of the most popular ones:
 
@@ -124,15 +124,15 @@ You can either use your computer's integrated shell / CLI or install the one you
 
 - **Windows:** Command Prompt. There are several ways of launching this tool on Windows.
 
-    - Press `Windows` + `X` to open the *Power Users* menu, and then click *Command Prompt* or *Command Prompt (Admin)*.
+    - Press `Windows + X` to open the *Power Users* menu, and then click *Command Prompt* or *Command Prompt (Admin)*.
 
-    - Press `Windows` + `R`  to open the *Run* box. Then, type `cmd`, and click *OK* to open a regular Command Prompt. Alternatively, type `cmd`, and press `Ctrl` + `Shift` + `Enter` to open an administrator Command Prompt.
+    - Press `Windows + R`  to open the *Run* box. Then, type `cmd`, and click *OK* to open a regular Command Prompt. Alternatively, type `cmd`, and press `Ctrl + Shift + Enter` to open an administrator Command Prompt.
 
 - **Linux:**
 
-    - To open the terminal, press `Ctrl` + `Alt` + `T` in Ubuntu, or press `Alt` + `F2`, then type in `gnome-terminal`, and press `Enter`.
+    - To open the terminal, press `Ctrl + Alt + T` in Ubuntu, or press `Alt + F2`, then type in `gnome-terminal`, and press `Enter`.
 
-    - You can also click on the Activities item at the top left of the screen, then type the first few letters of “terminal”, “command”, “prompt” or “shell”.
+    - You can also click on the Activities item at the top left of the screen, then type the first few letters of `terminal`, `command`, `prompt`, or `shell`.
 
     - Other versions of Linux, or other flavors of Ubuntu, will usually have a terminal launcher located in the same place as your other application launchers. It might be hidden away in a submenu or you might have to search for it from within your launcher, but it’s likely to be there somewhere.
 
@@ -155,7 +155,7 @@ You can either use your computer's integrated shell / CLI or install the one you
     - You can also see all contents of a directory in long format by using the command `ls -l`.
 
 - **Create Directories:** `mkdir` – You can use this command whenever you need to create a new folder or directory. Just pass in the name of the to-be-created folder as an argument, and it will create a new folder with that name inside whatever directory you are in.
-    - Pro Tip: Usually, you would like to create a new file/directory and move inside of it right away. You can do this in one single command by typing `mkdir newFolderName && cd $_`.
+    - 🔥 Pro Tip: Usually, you would like to create a new file/directory and move inside of it right away. You can do this in one single command by typing `mkdir newFolderName && cd $_`.
 
 - **Create Files:** `touch` – You can use this command whenever you need to create a new file. Just pass in the name of the to-be-created file (file extension included) as an argument, and it will create a new yet empty file with that name inside whatever directory you are in.
 
@@ -181,7 +181,7 @@ You can either use your computer's integrated shell / CLI or install the one you
 
 ## Code Editors
 
-According [to Wikipedia](https://en.wikipedia.org/wiki/Source-code_editor), a source-code editor is a text editor program designed specifically for editing source code of computer programs. It may be a standalone application, or it may be built into an integrated development environment (IDE), or web browser. Source-code editors are a fundamental programming tool, as the primary job of programmers is to write and edit source code. Hence, you will use the code editor daily when developing JavaScript applications.
+According [to Wikipedia](https://en.wikipedia.org/wiki/Source-code_editor), "a source-code editor is a text editor program designed specifically for editing source code of computer programs. It may be a standalone application, or it may be built into an integrated development environment (IDE), or web browser. Source-code editors are a fundamental programming tool, as the primary job of programmers is to write and edit source code. Hence, you will use the code editor daily when developing JavaScript applications."
 
 You can use a plain-text editor, like [Notepad](https://www.microsoft.com/en-us/p/notepads-app/9nhl4nsc67wm) (for Windows) or [TextEdit](https://support.apple.com/en-me/guide/textedit/welcome/mac) (for macOS), but there exist better options out there. With tons of integrated features and extensions, these code editors will make of your coding sessions, a more productive and enjoyable experience.
 
