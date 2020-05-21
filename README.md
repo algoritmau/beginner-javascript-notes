@@ -12,3 +12,6 @@ Feel free to provide feedback, request additions, etc. via Pull Request.
 ## Contents
 
 1. [Browser, Editor, and Terminal Setup](./pages/01-browser-editor-and-terminal-setup.md).
+
+2. [Running and Loading JavaScript](./pages/02-running-and-loading-js.md).
+ 
