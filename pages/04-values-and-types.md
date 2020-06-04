@@ -30,7 +30,7 @@ Consider a **type** a set of data values. JavaScript distinguishes **eight data 
 
 Below, you can see an example of some JavaScript values with different data types.
 
-![Running JavaScript from the Console](../images/javascript-values-example.png)
+![Running JavaScript from the Console](../images/values-and-types/javascript-values.png)
 
 - In lines 1 and 2, we have `Boolean` values.
 
@@ -48,25 +48,15 @@ Below, you can see an example of some JavaScript values with different data type
 
 We've seen that values in JavaScript may fall into two categories: *primitive values* and *objects*. One difference between the two is how we compare them; when it comes to objects, each of them is uniquely identical, meaning, that it only equals to itself (in a strict way).
 
-```javascript
-// Despite both objects being empty, this comparison evaluates to false
-{} == {};
-```
+![Falsy comparison](../images/values-and-types/comparison-false.png)
 
 Primitive values, on the other hand, are always considered the same when they represent an identical value.
 
-```javascript
-// This comparison evaluates to true
-1984 == 1984;
-```
+![Thruthy comparison](../images/values-and-types/comparison-true.png)
 
 **Mutability** is another important distinction between primitive values and objects. Whereas **objects are mutable** by default, **primitives are immutable**, i.e., read-only. The latter implies that we can't alter primitive values, we can't change them nor add/remove properties to/from them.
 
-```javascript
-let badGuy = "Voldemort";
-badGuy[0] = 'W';
-console.log(badGuy); // "Voldemort"
-```
+![Immutability](../images/values-and-types/immutability.png)
 
 > Note that if we try to modify/set a property on a primitive value, JavaScript won't let us do so. The language may silently ignore our request, or throw an error (depending on if strict mode is enabled).
 
