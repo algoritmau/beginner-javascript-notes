@@ -19,5 +19,5 @@ Feel free to provide feedback via Pull Request, or star the [GitHub repo](https:
 
 4. [Values and Types](./pages/04-values-and-types.md)
 
-5. [Variables](./pages/05.variables.md)
+5. [Variables](./pages/05-variables.md)
  
