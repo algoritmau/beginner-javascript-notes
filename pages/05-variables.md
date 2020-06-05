@@ -1,6 +1,6 @@
 # 05. Variables
 
-In JavaScript, a **variable** —which is, technically, referred to as an *identifier*— is a representation of some data stored in memory; this data can be of any type (which is why JavaScript variables are said to be loosely typed). In other words, JavaScript variables are named placeholders for values, pointers that we use—by assigning useful, recognizable names—to be able to access/retrieve values from memory.
+In JavaScript, a **variable**—which is, technically, referred to as an *identifier*—is a representation of some data stored in memory; this data can be of any type (which is why JavaScript variables are said to be loosely typed). In other words, JavaScript variables are named placeholders for values, pointers that we use—by assigning useful, recognizable names—to be able to access/retrieve values from memory.
 
 ## Variable Naming Convention
 
@@ -38,7 +38,7 @@ From the image above, we can see that we can declare a variable without initiali
 
 **Initializing** a variable means assigning a value to it as we did on lines 3 and 5, where we declared and initialized the `declaredWithLet` and `declaredWithConst` variables at the same time.
 
-> Notice the use of the single equal (=) operator — technically called the *assignment operator*— which is used for assignment. We'll review operators in a later chapter.
+> Notice the use of the single equal (=) operator— technically called the *assignment operator*—which is used for assignment. We'll review operators in a later chapter.
 
 A few key things to highlight:
 
@@ -203,7 +203,3 @@ As for naming variables, a good identifier name should provide enough informatio
 ¹*Constant (computer programming)*. Retrieved from https://en.wikipedia.org/wiki/Constant_(computer_programming)
 
 ²*Scope (computer science)*. Retrieved from https://en.wikipedia.org/wiki/Scope_(computer_science)
-
-<div style="text-align: right; margin-top: 48px; position: fixed; top: 0; right: 24px">
-    <a href="../README.md" style="padding: 13px 16px; border-radius: 3px; font-weight: bold; font-size: 18px; font-family: 'Code Saver', monospace; background-color: #F8E81C; width: fit-content; color: #706803">Back to Home 🏠</a>
-</div>
