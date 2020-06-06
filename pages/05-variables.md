@@ -125,10 +125,7 @@ In other words, a scope is a code section where the program (or the JavaScript e
 
 ### Global and local variables
 
-<div style="padding: 16px; background: lavender; color: dimgray; display: flex; border-radius: 3px; margin-bottom: 16px;">
-    <span style="margin-right: 8px">🚧</span>
-    <span>We're getting a bit ahead of ourselves here as we'll be using <em>functions</em>, <em>statements</em>, and <em>expressions</em> for more useful examples. Later, we'll be deeply reviewing each of these topics on their own chapters.</span>
-</div>
+> We're getting a bit ahead of ourselves here as we'll be using *functions*, and *statements* for more useful examples. Later, we'll be deeply reviewing each of these topics on their own chapters.
 
 In JavaScript, there are three types of scope:
 
@@ -140,23 +137,35 @@ In JavaScript, there are three types of scope:
 
 Let's take a look at a few examples to illustrate these concepts.
 
-<ul>
-    <li style="margin-bottom: 40px;">
-        <span>Declaring and accessing <strong>global</strong> variables:</span>
-        <img src="../images/variables/global-variables.png">
-        <span style="font-size: 14px;">On this example, we declared three global variables: <code>globalVariable</code>, <code>globalLetVariable</code>, and <code>globalConstVariable</code>. Then—on lines 7, 10, and 13—we could access these variables, as expected.</span>
-    </li>
-    <li style="margin-bottom: 40px;">
-        <span>Declaring and accessing <strong>local/function</strong> variables:</span>
-        <img src="../images/variables/local-variables.png">
-        <span style="font-size: 14px;">On this example, we declared three local variables inside the <code>myFunction</code> function: <code>localVariable</code>, <code>localLetVariable</code>, and <code>localConstVariable</code>. Then—on lines 13, 16, and 19—we could access these variables, from inside the function, as expected. However, when we attempted to do the same thing from outside the function—on lines 30, 33, and 36—we got an error since those variable are local-scoped to the function, so they're only accessible from inside the function itself.</span>
-    </li>
-    <li style="margin-bottom: 40px;">
-        <span>Declaring and accessing <strong>block-scoped</strong> variables:</span>
-        <img src="../images/variables/block-scoped-variables.png">
-        <span style="font-size: 14px;">On this last example, we attempted to create three block-scoped variables inside the <code>if</code> statement: <code>blockVariable</code>, <code>blockLetVariable</code>, and <code>blockConstVariable</code>. Then—on lines 11, 14, and 17—we tried to access these variables from outside the block statement, which yielded different results. When referencing block-scoped variables declared with <code>let</code> or <code>const</code>, JavaScript throws an error; however, for the variable declared with <code>var</code>, we could get its value. This shows that by using <code>let</code> and <code>const</code>, we have more control over code, which is why—nowadays—many JavaScript developers prefer <code>let</code> and <code>const</code> over <code>var</code>.</span>
-    </li>
-</ul>
+- Declaring and accessing **global** variables:
+  
+  ![Declaring and accessing global variables](../images/variables/global-variables.png)
+
+  On this example, we declared three global variables: `globalVariable`, `globalLetVariable`, and `globalConstVariable`. Then—on lines 7, 10, and 13—we could access those variables, as expected.
+
+- Declaring and accessing **local/function** variables:
+  
+  ![Declaring and accessing global variables](../images/variables/local-variables.png)
+
+  On this example, we declared three local variables inside the `myFunction` function: `localVariable`, `localLetVariable`, and `localConstVariable`. Then—on lines 13, 16, and 19—we could access those variables, from inside the function, as expected. However, when we attempted to do the same thing from outside the function—on lines 30, 33, and 36—we got an error since those variable are local-scoped to the function, so they're only accessible from inside the function itself.
+
+- Declaring and accessing **block-scoped** variables:
+  
+  ![Declaring and accessing global variables](../images/variables/block-scoped-variables.png)
+
+  On this last example, we attempted to create three block-scoped variables inside the `if` statement: `blockVariable`, `blockLetVariable`, and `blockConstVariable`. Then—on lines 11, 14, and 17—we tried to access those variables from outside the block statement, which yielded different results. When referencing block-scoped variables declared with `let` or `const`, JavaScript throws an error; however, for the variable declared with `var`, we could get its value. This shows that by using `let` and `const`, we have more control over code, which is why—nowadays—many JavaScript developers prefer `let` and `const` over `var`.
+
+### Using `var` in strict mode
+
+For historical reasons, it is possible to declare a variable without using any keyword. However, this is not recommended, and you should avoid doing it.
+
+Such a *declaration* leads to the creation of a global variable.
+
+![Declaring a variable without a keyword](../images/variables/declare-var-without-keyword.png)
+
+Notice that this won't work in strict mode. In that case, JavaScript will throw an error.
+
+![Declaring a variable without a keyword in strict mode](../images/variables/declare-var-without-keyword-strict-mode.png)
 
 ### Capitalization Style: camelCase
 
